@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css'; // Importa el archivo de estilos
 
-const API_URL = 'http://localhost:3000/items';
+const API_URL = 'http://localhost:5000/items';
 
 function ShoppingList() {
     const [products, setProducts] = useState([]);

@@ -6,7 +6,7 @@ const morgan = require('morgan');
 
 // Creamos una instancia de Express
 const app = express();
-const PORT = process.env.PORT || 3000; // Definimos el puerto en el que escuchará el servidor
+const PORT = process.env.PORT || 5000; // Definimos el puerto en el que escuchará el servidor
 
 // Middleware para parsear el cuerpo de las solicitudes
 app.use(express.json()); // Permite manejar solicitudes con contenido JSON
